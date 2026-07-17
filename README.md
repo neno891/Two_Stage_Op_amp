@@ -55,11 +55,5 @@ A primary challenge of a two-stage op-amp is its inherent nature as a **two-pole
 5.  **Output Driver Sizing ($M_6$):** Size the common-source transistor to place the non-dominant pole sufficiently high, satisfying pole-splitting constraints ($g_{m6} \ge 10 \cdot g_{m1}$).
 6.  **Current Mirror & Biasing ($M_5, M_7, M_8$):** Size biasing transistors using proper current-mirror ratios to match branch distributions accurately.
 
----
 
-## 📂 Repository Structure
-```text
-├── README.md              <- Project Overview & Design Methodology
-├── Schematics/            <- Circuit diagrams (Diff-Amp & CS Stage)
-├── Derivations/           <- Hand-written calculations / Small-signal models
-└── Simulations/           <- SPICE testbenches (AC Analysis, Transient, DC Sweep)
+
